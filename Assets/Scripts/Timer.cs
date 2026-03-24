@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
+using UnityEngine;
 
 public static class Timer
 {
@@ -66,8 +68,8 @@ public static class Timer
         writer.Close();
         stream.Close();
 
-        Debug.Log("Saved at " + path);        
-    }
+		UnityEngine.Debug.Log("Saved at " + path);
+	}
 
     public static void Load()
     {
@@ -96,11 +98,11 @@ public static class Timer
             reader.Close();
             stream.Close();
 
-            Debug.Log("Loaded save");
+			UnityEngine.Debug.Log("Loaded save");
         }
         else
         {
-            Debug.Log("No save found");
+			UnityEngine.Debug.Log("No save found");
         }
     }
 }
