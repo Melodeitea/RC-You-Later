@@ -54,8 +54,13 @@ public static class Timer
 
     public static void Save()
     {
-        // TODO : save our time steps (line 7 of this script) inside a file.
-        string path = Application.persistentDataPath + "/score.txt";
+		// TODO : save our time steps (line 7 of this script) inside a file.
+		// code inspiré d'une video de brackeys que j'avais utilisé y a quelques temps parce qu'elle ne cree pas de pb 
+		// quand je passe de linux à windows et inversement
+
+		// ici le persistant data path me sauve de windows qui a pas la même hiérarchie de fichiers que linux,
+        // et oui je sais techniquement je peux creer un fichier dans le repo git mais je me dis si je me repose sur ça,un build et cest mort
+		string path = Application.persistentDataPath + "/score.txt";
 
         FileStream stream = new FileStream(path, FileMode.Create);
         StreamWriter writer = new StreamWriter(stream);
