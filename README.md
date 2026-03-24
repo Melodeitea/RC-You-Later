@@ -56,6 +56,6 @@ En gros j'ai passé 40 min à peter mon crâne à pas comprendre si je devais co
 c'est mb parce qu'il suffisait de lire les autres scripts
 dcp là j'ai fait save et load honnêtement je vois pas trop quoi préciser d'autre si ce n'est que
 j'ai préféré utiliser persistant path comme pour mon ppfe que save à la racine parce que ça merde quand je change entre windows à l'école et arch chez moi.
-
+Par contre du coup je suis un peu plus la vidéo de Brackeys que le cours pendant lequel j'ai tapé une grosse migraine, déso c'etait pas par flemme d'écouter
 
 
