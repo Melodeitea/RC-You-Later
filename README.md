@@ -53,9 +53,6 @@ Il y a quelque assets dans le dossier des Models mais tu peux en importer d'autr
 
 Ce que tu a rajouté dans le projet :
 
-j'ai rien compris sur pk le timer etait statique et devait accueillir le systeme de sauvagarde dcp je cree un autre script save system et dans timer on fera qu'appeler la methode, dcp je change aussi les param, save sys sera en static et timer en serialized.
-Aussi je vais pas le stocker à la racine parce que arch linux, dcp je fais avec persistant path (je print le path en debug).
-
 
 
 

@@ -53,6 +53,20 @@ public static class Timer
     public static void Save()
     {
         // TODO : save our time steps (line 7 of this script) inside a file.
+        string path = Application.persistentDataPath + "/score.txt";
+
+        FileStream stream = new FileStream(path, FileMode.Create);
+        StreamWriter writer = new StreamWriter(stream);
+
+        foreach (long step in steps)
+        {
+            writer.WriteLine(step);
+        }
+
+        writer.Close();
+        stream.Close();
+
+        Debug.Log("Saved at " + path);        
     }
 
     public static void Load()
@@ -60,5 +74,33 @@ public static class Timer
         // TODO : load our time steps from a file (if we have any)
         // and store them inside our steps variable (line 7 of this script)
         // to show them to the player before starting a race.
+        string path = Application.persistentDataPath + "/score.txt";
+
+        if (File.Exists(path))
+        {
+            steps.Clear();
+
+            FileStream stream = new FileStream(path, FileMode.Open);
+            StreamReader reader = new StreamReader(stream);
+
+            while (!reader.EndOfStream)
+            {
+                string line = reader.ReadLine();
+
+                if (long.TryParse(line, out long value))
+                {
+                    steps.Add(value);
+                }
+            }
+
+            reader.Close();
+            stream.Close();
+
+            Debug.Log("Loaded save");
+        }
+        else
+        {
+            Debug.Log("No save found");
+        }
     }
 }
