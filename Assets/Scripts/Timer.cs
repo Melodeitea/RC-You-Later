@@ -59,10 +59,20 @@ public static class Timer
 		// quand je passe de linux à windows et inversement
 
 		// ici le persistant data path me sauve de windows qui a pas la même hiérarchie de fichiers que linux,
-        // et oui je sais techniquement je peux creer un fichier dans le repo git mais je me dis si je me repose sur ça,un build et cest mort
+		// et oui je sais techniquement je peux creer un fichier dans le repo git mais je me dis si je me repose sur ça,un build et cest mort
+
+		// 3. **2 Points** : Trouve un moyen de ne sauvegarder le temps (et les étapes)
+        // du joueur seulement s'il bat le temps final record déjà sauvegardé.
+
 		string path = Application.persistentDataPath + "/score.txt";
 
-        FileStream stream = new FileStream(path, FileMode.Create);
+		// Determine current final time (use last recorded step if present).
+		long finalTime = steps.Count > 0 ? steps[steps.Count - 1] : stopwatch.ElapsedMilliseconds;
+
+
+
+
+		FileStream stream = new FileStream(path, FileMode.Create);
         StreamWriter writer = new StreamWriter(stream);
 
         foreach (long step in steps)

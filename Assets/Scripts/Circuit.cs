@@ -32,7 +32,14 @@ public class Circuit : MonoBehaviour
     {
         // Unregister to gate passed event.
         Gate.OnPassed -= OnGateTrigger;
-    }
+
+		// Stop Timer if running
+		if (Timer.IsRunning)
+		{
+			Timer.Stop();
+			Timer.Reset();
+		}
+	}
 
     private void OnGateTrigger(Gate gate)
     {

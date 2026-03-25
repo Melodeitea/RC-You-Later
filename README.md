@@ -55,7 +55,17 @@ Ce que tu a rajouté dans le projet :
 En gros j'ai passé 40 min à peter mon crâne à pas comprendre si je devais coder la save dans timer ou si je devais appeler la save dans timer, 
 c'est mb parce qu'il suffisait de lire les autres scripts
 dcp là j'ai fait save et load honnêtement je vois pas trop quoi préciser d'autre si ce n'est que
-j'ai préféré utiliser persistant path comme pour mon ppfe que save à la racine parce que ça merde quand je change entre windows à l'école et arch chez moi.
-Par contre du coup je suis un peu plus la vidéo de Brackeys que le cours pendant lequel j'ai tapé une grosse migraine, déso c'etait pas par flemme d'écouter
+1 & 2 : j'ai préféré utiliser persistant path comme pour mon ppfe que save à la racine parce que ça merde quand je change entre windows à l'école et arch chez moi.
+Par contre du coup je suis un peu la vidéo de Brackeys parce que j'avais trop de bugs 
+link : https://youtu.be/XOjd_qU2Ido
+Je me lance sur la condition de save du timer
+Je me prends un mur notamment
+ça va partir en franglais adios
+ouais non dcp pour le moment j'y arrive pas et le 4 0 idée nn plus
+Dcp je vais passer à la partie 2 et comme j'aime bien etre extra ça part en plan camera
+ça va etre injouable mais y a une raison pr laquelle j'ai pas mon permis
+script qui change la luminosité à des moments randoms
+script pour que le joueur ait une flashlight sur la souris
+
 
 
