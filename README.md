@@ -65,7 +65,10 @@ ouais non dcp pour le moment j'y arrive pas et le 4 0 idée nn plus
 Dcp je vais passer à la partie 2 et comme j'aime bien etre extra ça part en plan camera
 ça va etre injouable mais y a une raison pr laquelle j'ai pas mon permis
 script qui change la luminosité à des moments randoms
-script pour que le joueur ait une flashlight sur la souris
+script pour que le joueur ait les headlights de la voiture 
+
+PTDRRRR 1H A PENSER QUE MES SCRIPTS FONCTIONNAIENT PAS ALORS QUE J4AVAIS TURN OFF LES COMMENTAIRES
+ALED
 
 
 
