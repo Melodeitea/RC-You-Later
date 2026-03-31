@@ -74,5 +74,9 @@ ALED
 en train d'ignorer le jury de demain dcp j'ai fait un ptit script pour me rappeler que c'est absolument pas le moment de faire ça (current time)
 faut que je teste sur linux aussi
 
+j'ai tenté de faire la save du meilleur scoren, pas encore testé.
+Je vais pas tenter le chiffrage parce que j'ai r capté mais dcp je pense ça fait un peu pllus de 2h total que je suis dessus donc je vais revenir tester mon dernier script
++ setup les cameras et basta
+
 
 
