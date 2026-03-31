@@ -70,5 +70,8 @@ script pour que le joueur ait les headlights de la voiture
 PTDRRRR 1H A PENSER QUE MES SCRIPTS FONCTIONNAIENT PAS ALORS QUE J4AVAIS TURN OFF LES COMMENTAIRES
 ALED
 
+31/03
+en train d'ignorer le jury de demain dcp j'ai fait un ptit script pour me rappeler que c'est absolument pas le moment de faire ça (current time)
+
 
 
