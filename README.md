@@ -72,6 +72,7 @@ ALED
 
 31/03
 en train d'ignorer le jury de demain dcp j'ai fait un ptit script pour me rappeler que c'est absolument pas le moment de faire ça (current time)
+faut que je teste sur linux aussi
 
 
 
