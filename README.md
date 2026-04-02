@@ -78,5 +78,13 @@ j'ai tenté de faire la save du meilleur scoren, pas encore testé.
 Je vais pas tenter le chiffrage parce que j'ai r capté mais dcp je pense ça fait un peu pllus de 2h total que je suis dessus donc je vais revenir tester mon dernier script
 + setup les cameras et basta
 
+rectification je rajoute un truc pour changer la rotation de la box trigger volume
+J'ai fini de setup les cameras, c'est volontairement injouable (les controls ne sont pas changés en fonction des caméras)
+et c'est une représentation de mes skills en conduite. Cinq and que je suis bloquée à la quête d'intro de GTA5.
+Et 7 sur watchdogs.
+Ne mettez pas un volant entre mes mains.
+Tu peux allumer les phares du kart avec E
+Et je sais toujours pas utiliser le nouvel input system.
+
 
 
